@@ -13,7 +13,7 @@ const init=()=>{
     score=[0,0];
     activePlayer=0;
     currentScore=0;
-    gamePlay=true;
+    gamePlay=false;//updated in try-adding-branch
     document.querySelector('.dice').style.display='none';
     document.getElementById(`current-0`).innerHTML=currentScore;
     document.getElementById(`current-1`).innerHTML=currentScore;
